@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<header>
     <h1>Portifólio de Álex Cleber</h1>
       <img src="homem forte.jpg" alt="imagem do Alex Cleber" width="150">
       <p><strong>Álex Cleber</strong> - Desenvolvedor foda</p>
@@ -17,16 +18,21 @@
     <div>
       <h2>Projetos</h2>
         <h3>sites complexos</h3>
-         <p>desenvolvi a <strong>netflix, Intagram e Uber</strong></p>
+         <p>desenvolvi a <strong>Netflix, Intagram e Uber</strong></p>
     </div>
+</header>
 
-     <h2>Interesses</h2>
-       <ol type="I">
-        <li>procuro vagas dem emprego milionárias, com no mínimo 100 mil de remuneração</li>
-        <li>carga horária de 1:00 da manhã até 12:00 da noite</li>
-        <li>vagas de emprego home office e/ou presencial</li>
+  <main>
+    <section>
+      <h2>Interesses</h2>
+        <ol type="I">
+           <li>procuro vagas dem emprego milionárias, com no mínimo 100 mil de remuneração</li>
+           <li>carga horária de 1:00 da manhã até 12:00 da noite</li>
+           <li>vagas de emprego home office e/ou presencial</li>
        </ol>
+      </section>
 
+   <section>
      <h2>Habilidades</h2>
         <ul type="circle">
              <li>formação em Javascript</li>
@@ -35,34 +41,57 @@
               <li>React Js</li>
               <li>Node Js</li>
             </ul>
+     </section>
         
 
+    <section>
        <li>formação em Java</li>
        <li>estruturação de banco de dados</li>
        <li>formatação de vírus</li>
       </ol><br><br>
+    </section>
 
+    <section>
       <label for="serviços">Serviços desejados:</label><br>
       <select id="serviços" name="serviços">
         <option value="portifólio">portifólio</option>
         <option value="consultoria">consultoria</option>
         <option value="mentoria">mentoria</option>
       </select><br><br>
+    </section>
 
-      <label for="sugestões">sugestões:</label><br>
+  <section>
+      <label for="sugestões"> sugestões: </label><br>
       <textarea id="sugestões" name="sugestões" rows="5" cols="30">
       </textarea><br><br>
+  </section>
 
+  <section>
       <label for="email">email:</label><br>
       <input type="email" id="email" name="email" placeholder="exemplo@gmail.com"><br><br>
 
-      <label for="idade">Idade do contratante:</label><br>
+      <label for="idade">Idade do contratante:</label> <br>
       <input type="number" id="idade" name="idade" min="18" max="100"><br><br>  
-      
-      <label>opções de contrato:</label><br>
-      <input type="radio" id="100$" name="contrato" value="site" checked><br>
-      <label for="contrato"></label><br>
-      <input type="radio" id="150$" name="contrato" value="site" checked>
+  </section>
 
+  <section>
+    <label><b>Contratos:</b></label><br>
+
+    <label for="plano1">Plano de 100 reais: </label>
+    <input type="radio" id="plano1" name="plano" value="plano" checked><br>
+
+    <label for="plano2">Plano de 150 reais:</label>
+    <input type="radio" id="plano2" name="plano" checked><br>
+
+    <label for="plano3">Plano de 200 reais:</label>
+    <input type="radio" id="plano3" name="plano" checked>
+  </section>
+</main><br><br>
+
+<footer>
+  <p>contato: (+55) 85 9817492</p>
+  <p>Afiliação: <strong>Geração Tech 2.0</strong></p>
+ </footer>
+      
 </body>
 </html> 
